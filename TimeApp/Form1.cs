@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace TimeApp
 {
@@ -19,6 +20,8 @@ namespace TimeApp
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            SoundPlayer NSound = new SoundPlayer(Properties.Resources._1);
+            NSound.Play();
             MessageBox.Show("是时候休息了！是时候休息了！是时候休息了！");
         }
 

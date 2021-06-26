@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="256.ico" />
+    <None Include="Resources\1.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
