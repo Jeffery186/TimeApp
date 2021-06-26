@@ -112,7 +112,7 @@ namespace TimeApp
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "健康提醒小助手 v1.0";
+            this.Text = "健康提醒小助手 v1.0.1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
